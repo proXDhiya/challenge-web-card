@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1640px) { .c2 { left: 65%; } }
+@media only screen and (max-width: 1200px) { .c2 { left: 67%; } }
+@media only screen and (max-width: 1040px) { .c2 { left: 70%; } }
+@media only screen and (max-width: 900px) { .c2 { left: 73%; } }
+@media only screen and (max-width: 770px) { .c2 { left: 78%; } }
+@media only screen and (max-width: 660px) {
+    .c1 { right: 40%; }
+    .box { display: none; }
+    .alert-box { display: block; }
+}

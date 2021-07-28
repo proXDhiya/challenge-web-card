@@ -48,7 +48,8 @@ body {
     bottom: 18%;
 }
 
-.box {
+.box,
+.alert-box {
     width: 520px;
     height: 300px;
     position: absolute;
@@ -59,6 +60,29 @@ body {
     box-shadow: 0 0 5px rgb(46, 142, 231);
     backdrop-filter: blur(5px);
     border-radius: 20px;
+}
+
+.alert-box {
+    width: 300px;
+    height: 320px;
+    display: none;
+}
+
+.rotate {
+    width: 200px;
+    display: block;
+    margin: 10px auto 20px auto;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.alert-box h2 {
+    font-size: 120%;
+    text-align: center;
+    transition: color 0.5s;
+}
+
+.alert-box h2:hover {
+    color: rgb(195, 226, 255);
 }
 
 .visa-img {
