@@ -7,4 +7,6 @@
     .c1 { right: 40%; }
     .box { display: none; }
     .alert-box { display: block; }
+    .alert-box h2 { display: block; }
+    .rotate { display: block; }
 }
