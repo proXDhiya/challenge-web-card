@@ -11,3 +11,7 @@
     .alert-box h2 { display: block; }
     .rotate { display: block; }
 }
+
+@media only screen and (max-height: 520px) { .c3 { bottom: 5%; } }
+@media only screen and (max-height: 450px) { .c1 { bottom: 30%; } }
+@media only screen and (max-height: 390px) { .c1 { bottom: 22%; } }
